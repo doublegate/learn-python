@@ -1,3 +1,5 @@
+# Branch code with the if statement
+
 value = '4'
 
 if value == '7':
@@ -10,3 +12,10 @@ else:
     print("The value is NOT one we're looking for...")
 
 print('Finished!')
+
+first_value = True
+second_value = '6'
+
+if first_value:
+    if second_value == '6':
+        print('Got here!')
